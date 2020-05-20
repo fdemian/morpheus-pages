@@ -5,9 +5,9 @@ import { Row, Col } from 'antd';
 
 import { getChildrenToRender } from '../utils';
 
-import './Feature7.css';
+import './FeatureList.css';
 
-function Feature7(props) {
+const FeatureList = (props) => {
   const { dataSource, isMobile, ...tagProps } = props;
   const { blockWrapper, titleWrapper } = dataSource;
   const childrenToRender = blockWrapper.children.map((item, i) => (
@@ -40,4 +40,4 @@ function Feature7(props) {
   );
 }
 
-export default Feature7;
+export default FeatureList;

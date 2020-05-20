@@ -5,16 +5,13 @@ import { enquireScreen } from 'enquire-js';
 
 import Navbar from './Navbar/Navbar';
 import ContentHeader from './ContentHeader/ContentHeader';
-import Feature7 from './Feature7/Feature7';
-import Content5 from './Content5/Content5';
-import Content3 from './Content3/Content3';
-//import Footer1 from './Footer1';
+import FeatureList from './FeatureList/FeatureList';
+import Footer from './Footer/Footer';
 
 import NavbarDS from './Navbar/datasource';
 import ContentHeaderDS from './ContentHeader/datasource';
-import Feature7DS from './Feature7/datasource';
-import Content5DS from './Content5/datasource';
-import Content3DS from './Content3/datasource';
+import FeatureListDS from './FeatureList/datasource';
+import FooterDS from './Footer/datasource';
 
 import './App.css';
 
@@ -64,22 +61,16 @@ export default class Home extends React.Component {
         dataSource={ContentHeaderDS}
         isMobile={this.state.isMobile}
       />,
-      <Feature7
+      <FeatureList
         id="Feature7_0"
         key="Feature7_0"
-        dataSource={Feature7DS}
+        dataSource={FeatureListDS}
         isMobile={this.state.isMobile}
       />,
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content5DS}
-        isMobile={this.state.isMobile}
-      />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content3DS}
+      <Footer
+        id="Footer1_0"
+        key="Footer1_0"
+        dataSource={FooterDS}
         isMobile={this.state.isMobile}
       />
     ];

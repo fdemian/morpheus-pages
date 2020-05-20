@@ -1,4 +1,6 @@
-const Feature70DataSource = {
+import React from 'react';
+
+const FeatureListDS = {
   wrapper: { className: 'home-page-wrapper feature7-wrapper' },
   page: { className: 'home-page feature7' },
   OverPack: { playScale: 0.3 },
@@ -8,12 +10,12 @@ const Feature70DataSource = {
       {
         name: 'title',
         className: 'feature7-title-h1',
-        children: '图像在线服务',
+        children: 'Features',
       },
       {
         name: 'content',
         className: 'feature7-title-content',
-        children: '你可以直接快速接入图像能力',
+        children: 'These are just some of the cool features that Morpheus brings to the table.',
       },
     ],
   },
@@ -38,12 +40,12 @@ const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: 'Notifications',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: 'So that you can know when a user comments on your post immediately.',
             },
           ],
         },
@@ -65,12 +67,12 @@ const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: 'Full latex support.',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: <p>Full LaTeX suppport through the <a href="https://katex.org">KaTeX</a> library.</p>,
             },
           ],
         },
@@ -92,12 +94,14 @@ const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: 'Powerful text editor.',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: <p>Morpheus uses <a href="https://github.com/fdemian/elementary-editor">Elementary Editor</a>,
+                a powerfull and extensible editor, allowing you to insert links, images, videos and math formulas (using LaTeX).
+              </p>,
             },
           ],
         },
@@ -119,12 +123,12 @@ const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: 'Control over comments.',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: 'You control wether you want anyone to comment, or only users of your blog.',
             },
           ],
         },
@@ -146,99 +150,18 @@ const Feature70DataSource = {
             {
               name: 'title',
               className: 'feature7-block-title',
-              children: '身份证',
+              children: 'Quick installation',
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: 'Ease of installation, to get the application up and running within minutes.',
             },
           ],
         },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block5',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
-              name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block6',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
-              name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block7',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
-              name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
-            },
-          ],
-        },
-      },
+      }
     ],
   },
 };
 
-export default Feature70DataSource;
+export default FeatureListDS;
