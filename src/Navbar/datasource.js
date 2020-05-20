@@ -1,5 +1,3 @@
-import React from 'react';
-
 const NavbarDataSource = {
   wrapper: { className: 'header0 home-page-wrapper' },
   page: { className: 'home-page' },

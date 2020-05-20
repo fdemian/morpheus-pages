@@ -48,7 +48,14 @@ const FooterDS = {
     className: 'copyright',
     children: (
       <span>
-        ©2020 by <a href="https://github.com/fdemian" target="_blank">/fdemian</a> All Rights
+        ©2020 by
+         <a
+           href="https://github.com/fdemian"
+           target="_blank"
+           rel="noopener noreferrer" 
+          >
+          /fdemian
+          </a> All Rights
         Reserved
       </span>
     ),
