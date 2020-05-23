@@ -4,7 +4,7 @@ import { DownloadOutlined } from '@ant-design/icons';
 import './DownloadLinks.css';
 
 const fileName = "Morpheus_Build-5-2020.zip";
-const fileUrl = "../" + fileName;
+const fileUrl = "../morpheus-pages/" + fileName;
 
 const DownloadLinks = () => {
 
