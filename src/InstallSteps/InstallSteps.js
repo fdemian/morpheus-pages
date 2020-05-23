@@ -11,12 +11,20 @@ const steps = [
       You will need the following dependencies:
       <ul>
         <li>
-          <a href="https://www.python.org/" target="_blank">
+          <a
+            href="https://www.python.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Python3+
           </a>
         </li>
         <li>
-          <a href="https://www.postgresql.org/" target="_blank">
+          <a
+            href="https://www.postgresql.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             PostgreSQL 10+
           </a>
         </li>
