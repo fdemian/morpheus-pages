@@ -6,6 +6,8 @@ import { enquireScreen } from 'enquire-js';
 import Navbar from './Navbar/Navbar';
 import ContentHeader from './ContentHeader/ContentHeader';
 import FeatureList from './FeatureList/FeatureList';
+import DownloadLinks from './DownloadLinks/DownloadLinks';
+import InstallSteps from './InstallSteps/InstallSteps';
 import Footer from './Footer/Footer';
 
 import NavbarDS from './Navbar/datasource';
@@ -61,6 +63,8 @@ export default class Home extends React.Component {
         dataSource={ContentHeaderDS}
         isMobile={this.state.isMobile}
       />,
+      <DownloadLinks />,
+      <InstallSteps />,
       <FeatureList
         id="Feature7_0"
         key="Feature7_0"

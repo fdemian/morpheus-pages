@@ -1,0 +1,9 @@
+.download-links-wrapper {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.download-links-wrapper .ant-card {
+  background-color:#f7f9fc;
+}
