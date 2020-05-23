@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Steps, Divider } from 'antd';
+import { Steps } from 'antd';
 import './InstallSteps.css';
 
 const { Step } = Steps;

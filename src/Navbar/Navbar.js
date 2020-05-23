@@ -1,10 +1,6 @@
 import React from 'react';
 import TweenOne from 'rc-tween-one';
-import { Menu } from 'antd';
-import { getChildrenToRender } from '../utils';
 import './Navbar.css';
-
-const { Item, SubMenu } = Menu;
 
 class Header extends React.Component {
   constructor(props) {
