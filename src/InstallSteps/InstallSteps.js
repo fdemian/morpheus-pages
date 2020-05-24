@@ -81,11 +81,11 @@ const InstallSteps = () => {
 
   return (
   <div className="installation-steps-container">
-    <h1>Installation Steps</h1>
+    <h1 className="installation-steps-title">Installation Steps</h1>
     <br />
 
     <br />
-    <div>
+    <div className="installation-steps-steps">
       <Steps
         current={current}
         onChange={onChange}

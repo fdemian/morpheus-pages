@@ -1,5 +1,12 @@
 .installation-steps-container {
-  margin-left: 37%;
   margin-top: 50px;
   margin-bottom: 50px;
+}
+
+.installation-steps-title {
+  text-align: center;
+}
+
+.installation-steps-steps {
+  margin-left: 30%;
 }
