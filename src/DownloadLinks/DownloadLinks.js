@@ -1,5 +1,6 @@
 import React from 'react';
 import { Button, Card } from 'antd';
+import { Link } from 'react-router-dom';
 import { DownloadOutlined } from '@ant-design/icons';
 import './DownloadLinks.css';
 
@@ -26,15 +27,16 @@ const DownloadLinks = () => {
     <Card bordered={true}>
       <h1>Download latest build (23/05/2020)</h1>
       <br />
-      <Button
-        type="primary"
-        shape="round"
-        icon={<DownloadOutlined />}
-        size='large'
-        onClick={downloadBuild}
-      >
-        Download
-      </Button>
+      <Link to={fileUrl}>
+        <Button
+          type="primary"
+          shape="round"
+          icon={<DownloadOutlined />}
+          size='large'
+        >
+          Download
+        </Button>
+      </Link>
     </Card>
   </div>
   );
