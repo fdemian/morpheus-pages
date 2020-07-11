@@ -4,23 +4,9 @@ import { Link } from 'react-router-dom';
 import { DownloadOutlined } from '@ant-design/icons';
 import './DownloadLinks.css';
 
-const fileName = "Morpheus_Build-5-2020.zip";
-const fileUrl = "../morpheus-pages/" + fileName;
+const fileUrl = "https://github.com/fdemian/morpheus-pages/blob/master/src/Morpheus_Build-5-2020.zip";
 
 const DownloadLinks = () => {
-
- const downloadBuild = () => {
-  fetch(fileUrl)
-    .then(response => {
-      response.blob().then(blob => {
-        let url = window.URL.createObjectURL(blob);
-        let a = document.createElement('a');
-        a.href = url;
-        a.download = fileName;
-        a.click();
-      });
-  });
-}
 
   return(
   <div className="download-links-wrapper">
