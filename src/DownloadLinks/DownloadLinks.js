@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { DownloadOutlined } from '@ant-design/icons';
 import './DownloadLinks.css';
 
-const fileUrl = "https://github.com/fdemian/morpheus-pages/blob/master/src/Morpheus_Build-5-2020.zip";
+const fileUrl = "https://github.com/fdemian/morpheus-pages/raw/master/src/Morpheus_Build-5-2020.zip";
 
 const DownloadLinks = () => {
 
