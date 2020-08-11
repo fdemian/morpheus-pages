@@ -13,11 +13,6 @@ import logo from '../logo.png'
         name: 'title',
         children: <img alt="blog-logo" src={logo} width={200} />,
         className: 'title-h1'
-      },
-      {
-        name: 'content',
-        children: 'A better way to communicate.',
-        className: 'title-content',
       }
     ],
   },
