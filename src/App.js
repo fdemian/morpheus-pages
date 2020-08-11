@@ -8,7 +8,6 @@ import ContentHeader from './ContentHeader/ContentHeader';
 import FeatureList from './FeatureList/FeatureList';
 import DownloadLinks from './DownloadLinks/DownloadLinks';
 import InstallSteps from './InstallSteps/InstallSteps';
-import Description from './Description/Description';
 import Footer from './Footer/Footer';
 
 import NavbarDS from './Navbar/datasource';
@@ -63,16 +62,15 @@ export default class Home extends React.Component {
         key="Content13_0"
         dataSource={ContentHeaderDS}
         isMobile={this.state.isMobile}
-      />,
-      <Description />,
-      <DownloadLinks />,
-      <InstallSteps />,
+      />,      
       <FeatureList
         id="Feature7_0"
         key="Feature7_0"
         dataSource={FeatureListDS}
         isMobile={this.state.isMobile}
       />,
+      <DownloadLinks />,
+      <InstallSteps />,
       <Footer
         id="Footer1_0"
         key="Footer1_0"

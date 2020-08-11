@@ -1,6 +1,7 @@
 import React from 'react';
 import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import QueueAnim from 'rc-queue-anim';
+import Description from './Description';
 import { getChildrenToRender } from '../utils';
 import './ContentHeader.css';
 
@@ -20,6 +21,9 @@ class Content13 extends React.PureComponent {
           {...dataSource.titleWrapper}
         >
           {dataSource.titleWrapper.children.map(getChildrenToRender)}
+        </QueueAnim>
+        <QueueAnim>
+          <Description />
         </QueueAnim>
       </OverPack>
     );
