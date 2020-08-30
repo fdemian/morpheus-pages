@@ -10,7 +10,7 @@ const DownloadLinks = () => {
   return(
   <div className="download-links-wrapper">
     <Card bordered={true}>
-      <h1>Download latest build (23/05/2020)</h1>
+      <h1>Download latest build (30/08/2020)</h1>
       <br />
       <a href={fileUrl}>
         <Button
