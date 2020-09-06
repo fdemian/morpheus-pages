@@ -3,7 +3,7 @@ import { Button, Card } from 'antd';
 import { DownloadOutlined } from '@ant-design/icons';
 import './DownloadLinks.css';
 
-const fileUrl = "https://github.com/fdemian/morpheus-pages/raw/master/src/Morpheus-Build_30-8-2020.zip";
+const fileUrl = "https://github.com/fdemian/morpheus-pages/raw/master/src/Morpheus-Build_5-9-2020.zip";
 
 const DownloadLinks = () => {
 
